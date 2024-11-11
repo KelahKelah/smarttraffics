@@ -8,12 +8,13 @@ function App() {
   return (
     <div className='wrap'>
       <img className='userTrafficImage' src={Users} alt='user traffic' />
-      <h1>Your Traffic rate in a day is </h1>
+      <h1>Your Traffic rate per day is </h1>
       <h1> 569</h1>
       <button>Click here for more</button>
-
-      <p>Powered by</p>
-      <img className='cloudfareLogo'  src={Cloudfare} alt='logo' /> 
+      <div className='poweredWrap'>
+        <p>Powered by</p>
+        <img className='cloudfareLogo'  src={Cloudfare} alt='logo' /> 
+      </div>
     </div>
   )
 }
