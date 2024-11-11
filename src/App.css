@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.wrap {
+  background: white;
+}
+.userTrafficImage {
+  width: 350px;
+  height: 300px;
+}
+h1 {
+  color: black;
+}
+button {
+  color: white;
+  font-size: 15px;
+}
+p  {
+  color: black;
+}
+.cloudfareLogo  {
+  width: 50px;
+  height: 50px;
+}
+
+
